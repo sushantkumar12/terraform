@@ -28,10 +28,10 @@ resource "aws_eip" "ip" {
     instance = aws_instance.example.id
 }
 
-# resource "aws_s3_bucket" "example" {
-#   # NOTE: S3 bucket names must be unique across _all_ AWS accounts, so
-#   # this name must be changed before applying this example to avoid naming
-#   # conflicts.
-#   bucket = "terraform-getting-started-sus"
-#   acl    = "private"
-# }
+resource "aws_s3_bucket" "example" {
+  # NOTE: S3 bucket names must be unique across _all_ AWS accounts, so
+  # this name must be changed before applying this example to avoid naming
+  # conflicts.
+  bucket = "terraform-getting-started-sus"
+  acl    = "private"
+}
