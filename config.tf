@@ -3,8 +3,8 @@
 # }
 
 # provider "aws" {
-#   access_key = "AKIAYAOBEHCCZQZHRN37"
-#   secret_key = "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"
+#   access_key = ""
+#   secret_key = ""
 #   region     = "us-east-1"
 # }
 
